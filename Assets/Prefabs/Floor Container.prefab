@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4640157899526845216}
   - component: {fileID: 4640157899526845217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 455238350929041975}
   - component: {fileID: 5479102498761944426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 4640157899720779648}
   - component: {fileID: 4640157899720779649}
   - component: {fileID: 3740185294374345599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,3 +278,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _treePrefab: {fileID: 7314615929466820814, guid: c00e550bb5785b64088d55214ad6d59a, type: 3}
+  _treeWidth: 6
+  _minTreeWidth: 2
