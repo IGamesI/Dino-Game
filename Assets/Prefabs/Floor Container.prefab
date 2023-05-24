@@ -278,5 +278,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _treePrefab: {fileID: 7314615929466820814, guid: c00e550bb5785b64088d55214ad6d59a, type: 3}
-  _treeWidth: 6
-  _minTreeWidth: 2
+  _treeWidth: 7
+  _minTreeWidth: 1

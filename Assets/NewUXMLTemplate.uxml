@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="PageContainer" style="align-items: flex-end; justify-content: flex-start; height: 100%; width: 100%;">
+        <ui:Label text="0" display-tooltip-when-elided="true" name="ScoreCounter" style="height: auto; width: auto; -unity-text-align: upper-right; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; font-size: 30px; -unity-text-outline-color: rgb(83, 83, 83);" />
+    </ui:VisualElement>
+</ui:UXML>

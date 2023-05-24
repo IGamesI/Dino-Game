@@ -17,12 +17,12 @@ public class FloorObjectsHandler : MonoBehaviour
 	#region UnityFunctions
 	void Start()
     {
-		float treeAmount = _treeAmountRandom.Next(0, 8);
+		float treeAmount = _treeAmountRandom.Next(3, 8);
 		List<float> treeXPositions = new List<float>();
 		for (int i = 0; i < treeAmount; i++)
 		{
 			float treeRandomX = 0f;
-			bool tooClose = false;
+			bool tooClose = true;
 			int counter = 0;
 			while (tooClose && counter < 100)
 			{
