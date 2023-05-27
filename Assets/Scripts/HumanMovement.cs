@@ -12,6 +12,8 @@ public class HumanMovement : MonoBehaviour
 	Rigidbody2D _rigidBody;
 	BoxCollider2D _boxCollider;
 	bool _isGrounded;
+
+	bool _isDead;
 	#endregion
 
 	#region UnityFunctions
@@ -28,6 +30,14 @@ public class HumanMovement : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.UpArrow) && _isGrounded)
 		{
 			_rigidBody.AddForce(new Vector2(0f, _jumpForce), ForceMode2D.Impulse);
+		}
+	}
+
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.gameObject.tag == "Tree")
+		{
+			Time.timeScale = 0;
 		}
 	}
 	#endregion

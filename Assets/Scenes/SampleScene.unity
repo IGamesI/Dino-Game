@@ -366,6 +366,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _floorPrefab: {fileID: 5809276243373135310, guid: e71858248c19d2247b4a58bd0e0139cd, type: 3}
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70979d7a9172b524bafca08624ad13d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerScore: 1
 --- !u!1001 &4640157899720779646
 PrefabInstance:
   m_ObjectHideFlags: 0
