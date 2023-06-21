@@ -9,6 +9,7 @@ public class HumanMovement : MonoBehaviour
 	float _speed = 0f;
 	[SerializeField] float _jumpForce;
 	[SerializeField] LayerMask _groundLayer;
+	[SerializeField] ScoreHandler _scoreHandler;
 	Rigidbody2D _rigidBody;
 	BoxCollider2D _boxCollider;
 	bool _isGrounded;
@@ -37,6 +38,7 @@ public class HumanMovement : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "Tree")
 		{
+			_scoreHandler.HandleDeathUI();
 			Time.timeScale = 0;
 		}
 	}
